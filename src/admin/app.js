@@ -89,7 +89,7 @@ export default {
         neutral1000: "#181826",
         primary100: appColors.backgroundColor, // Active background
         primary200: appColors.dividerLightBlue, // btn border
-        primary500: "#7b79ff",
+        primary500: appColors.bgBlue,
         primary600: appColors.secondaryColor, // font
         primary700: appColors.secondaryColor,
         secondary100: "#eaf5ff",
