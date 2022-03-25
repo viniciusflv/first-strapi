@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::restaurant-info.opening-hours",
+  "value": {
+    "uid": "restaurant-info.opening-hours",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "hours",
+      "defaultSortBy": "hours",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "hours": {
+        "edit": {
+          "label": "hours",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "hours",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "days": {
+        "edit": {
+          "label": "days",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "days",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "hours",
+        "days"
+      ],
+      "edit": [
+        [
+          {
+            "name": "hours",
+            "size": 6
+          },
+          {
+            "name": "days",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
