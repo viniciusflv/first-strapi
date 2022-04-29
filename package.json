@@ -15,6 +15,7 @@
     "@strapi/plugin-seo": "^1.7.2",
     "@strapi/plugin-users-permissions": "4.1.5",
     "@strapi/strapi": "4.1.5",
+    "morphism": "^1.12.3",
     "sqlite3": "5.0.2",
     "strapi-plugin-config-sync": "^1.0.0"
   },
